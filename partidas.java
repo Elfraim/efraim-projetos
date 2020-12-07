@@ -483,7 +483,14 @@ public class partidas extends JFrame {
 		t4.setColumns(10);
 		t4.setBounds(393, 347, 86, 20);
 		Pane.add(t4);
-		
+		/* Essse app e um simulador de jogos mata mata 
+		nele  ocorre o sorteio dos times com o seu devido tamanho  essa parte estas no fim do codigo
+		logo depois ocorre as fazes do torneio como oitavas quartas semi final e final  em cada dessas fazes ocorre 
+		a execução de partidas por meio de metodos.
+		eles vem por meio de objetos que foram criados para movimentar os times de fase em fase temos geters e seters 
+		que podem pegar o nome dos vencedores e colocar os placares tambem.*/
+			
+				
 		JButton btnNewButton_1 = new JButton("Jogar oitavas");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -1189,7 +1196,7 @@ public class partidas extends JFrame {
 						  tam[i]='m';
 						  }
 					  if(nsort==28){ 
-						  Vtimes[i]="Gr�mio";
+						  Vtimes[i]="Grêmio";
 						  tam[i]='m';
 						  }
 					  if(nsort==29){
